@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/phrase_fragment_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="italic" android:textColor="#ffff0000" android:id="@+id/txt_no_result" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_result" />
+    <ListView android:id="@+id/list_phrase_detail" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="5.0dip" android:choiceMode="singleChoice" />
+    <TextView android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@+id/copy_view" android:background="@drawable/item_grid" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-50.0dip" android:text="copy" />
+</LinearLayout>

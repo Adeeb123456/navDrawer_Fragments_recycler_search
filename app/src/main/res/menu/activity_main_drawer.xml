@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item android:title="@string/common_phrase" android:id="@+id/nav_phrase" android:icon="@drawable/ic_sentence_common"/>
+
+    <item android:title="@string/favorite_title" android:id="@+id/nav_favorites" android:icon="@drawable/ic_favorites"/>
+
+</group>
+
+
+    <item android:title="Communicate">
+
+
+    <menu>
+
+    <item android:title="@string/rate_app" android:id="@+id/nav_rate" android:icon="@drawable/ic_rate"/>
+
+    <item android:title="@string/see_more" android:id="@+id/nav_send" android:icon="@drawable/ic_apps"/>
+
+    <item android:title="@string/remove_ads" android:id="@+id/nav_removeAds" android:icon="@drawable/ic_remove_ads"/>
+
+</menu>
+
+</item>
+
+</menu>

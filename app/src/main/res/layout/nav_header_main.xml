@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/ThemeOverlay.AppCompat.Dark" android:gravity="center" android:orientation="vertical" android:background="@drawable/side_nav_bar"
+
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent"
+    android:layout_height="@dimen/nav_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/imageView" android:layout_width="@dimen/nave_header_image_size"
+        android:layout_height="@dimen/nave_header_image_size" android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/ic_launcher" />
+    <TextView
+        android:textSize="20dp" android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:text="@string/app_name" />
+    <TextView android:textStyle="italic" android:id="@+id/textView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="0dp" android:text="ufostudio" />
+</LinearLayout>

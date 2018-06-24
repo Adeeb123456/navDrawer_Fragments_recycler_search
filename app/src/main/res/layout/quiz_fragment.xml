@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:gravity="center_horizontal" android:id="@+id/txt_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="this is my question this is my question this is my question  " />
+    <LinearLayout android:orientation="vertical" android:id="@+id/options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <TextView android:id="@+id/optionA" android:layout_width="228.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text=" this is answer A this is answer A this is answer A this is answer A" android:layout_weight="0.29" />
+        <TextView android:id="@+id/optionB" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text=" this is answer A this is answer A this is answer A this is answer A" />
+        <TextView android:id="@+id/optionC" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text=" this is answer A this is answer A this is answer A this is answer A" android:layout_weight="0.75" />
+        <TextView android:id="@+id/optionD" android:layout_width="232.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text=" this is answer A this is answer A this is answer A this is answer A" android:layout_weight="0.75" />
+    </LinearLayout>
+</LinearLayout>
